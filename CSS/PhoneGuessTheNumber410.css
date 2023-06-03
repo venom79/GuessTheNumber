@@ -1,0 +1,20 @@
+.container{
+    width: 90%;
+}
+.containerSmall{
+    width: 90%;
+}
+.btn{
+    width: 28%;
+}
+
+.popup {
+    width: 86%;
+    height: 67%;
+    font-size: 12px;
+}
+.lostpopup{
+    width: 86%;
+    height: 67%;
+    font-size: 12px;
+}

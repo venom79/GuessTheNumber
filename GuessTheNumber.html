@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/GuessTheNumber.css">
+    <link rel="stylesheet" media="screen and (max-width: 540px)" href="./CSS/PhoneGuessTheNumber.css">
+    <link rel="stylesheet" media="screen and (max-width: 410px)" href="./CSS/PhoneGuessTheNumber410.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display-swap" rel="stylesheet">
+    <title>Guess The Number Game.Web</title>   
+</head>
+<body>
+    <div id="GameName">
+        <h1>Guess The Number</h1>
+    </div>
+    <div id="stats" class="containerSmall">
+            <button id="reload" class="btn" onclick="restart()">Restart</button>
+            <div id="life">
+                 <img id="life-1" src="/heart.png" alt="">   
+                 <img id="life-2" src="/heart.png" alt="">   
+                 <img id="life-3" src="/heart.png" alt="">   
+            </div>
+    </div>
+    <div class="container">
+        <div id="Result"><img id="QM" src="/Question-mark.svg"></div>
+        <div id="choices">
+            <button id="choice-1" class="btn Guess" onclick="israndom(this.id)"></button>
+            <button id="choice-2" class="btn Guess" onclick="israndom(this.id)"></button>
+            <button id="choice-3" class="btn Guess" onclick="israndom(this.id)"></button>
+            <button id="choice-4" class="btn Guess" onclick="israndom(this.id)"></button>
+            <button id="choice-5" class="btn Guess" onclick="israndom(this.id)"></button>
+            <button id="choice-6" class="btn Guess" onclick="israndom(this.id)"></button>
+        </div>
+    </div>
+    <script src="./js/GuessTheNumber.js"></script>
+</body>
+</html>
